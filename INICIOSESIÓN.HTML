@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PAGINA.CSS">
+    <script src="IS.js"></script>
+    <title>Iniciar sesión</title>
+    <style>
+
+.logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+
+<body class="body">
+
+    <img src="logotipo.PNG.png" alt="Logo" class="logo">
+
+    <center>
+        <h1>INICIAR SESIÓN</h1>
+        <form class="form" action="INICIO">
+            <label for="Usuario">Usuario</label>
+            <input type="text" placeholder="Ingrese su Usuario" id="Usuario">
+
+            <label for="Clave">Contraseña</label>
+            <input type="password" placeholder="Ingrese su Contraseña" id="Clave">
+
+            <input type="button" value="Iniciar sesión" onclick="login()">
+        </form>
+    </center>
+</body>
+</html>
